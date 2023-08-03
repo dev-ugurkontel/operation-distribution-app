@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B3587C3-53B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CF3A7902-B601-4998-B449-51CBDFD427C6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OperationDistributionApp.WebUI", "OperationDistributionApp.WebUI", "{B0A98703-4C1B-4362-8CA8-E6E0411C0F04}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationDistributionApp.WebAPI", "OperationDistributionApp.WebAPI\OperationDistributionApp.WebAPI.csproj", "{5B1A7C15-4B1C-4B41-9191-B248EF8A93AE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{188C073B-13DB-4FD8-B1DC-D4BA5988A08A} = {188C073B-13DB-4FD8-B1DC-D4BA5988A08A}
@@ -28,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationDistributionApp.In
 		{5F633E06-73F9-4481-9684-E7BE1805D9AA} = {5F633E06-73F9-4481-9684-E7BE1805D9AA}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationDistributionApp.Test", "OperationDistributionApp.Test\OperationDistributionApp.Test.csproj", "{89E7E3C2-4D8A-49F8-9EB2-301CD2C21CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationDistributionApp.Test", "OperationDistributionApp.Test\OperationDistributionApp.Test.csproj", "{89E7E3C2-4D8A-49F8-9EB2-301CD2C21CF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,7 +59,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B0A98703-4C1B-4362-8CA8-E6E0411C0F04} = {3B3587C3-53BB-4F4E-9A5F-62DE5D618059}
 		{5B1A7C15-4B1C-4B41-9191-B248EF8A93AE} = {3B3587C3-53BB-4F4E-9A5F-62DE5D618059}
 		{BDA0EA42-C0E1-4640-B069-6ECC868B39E4} = {3B3587C3-53BB-4F4E-9A5F-62DE5D618059}
 		{5F633E06-73F9-4481-9684-E7BE1805D9AA} = {3B3587C3-53BB-4F4E-9A5F-62DE5D618059}
