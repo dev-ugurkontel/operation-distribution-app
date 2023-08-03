@@ -1,0 +1,71 @@
+﻿using Microsoft.EntityFrameworkCore;
+using OperationDistributionApp.Domain.Entities;
+using OperationDistributionApp.Infrastructure.Configs;
+
+namespace OperationDistributionApp.Infrastructure
+{
+    public class OperationDistributionAppContext : DbContext
+    {
+        public OperationDistributionAppContext(DbContextOptions<OperationDistributionAppContext> options)
+            : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(ConnectionConfig.ConnectionString);
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            Seed(modelBuilder);
+        }
+
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Operation> Operations { get; set; }
+        public DbSet<History> Histories { get; set; }
+
+        private void Seed(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<History>()
+                .HasOne(h => h.Employee)
+                .WithMany(e => e.Histories)
+                .HasForeignKey(h => h.EmployeeID);
+
+            modelBuilder.Entity<History>()
+                .HasOne(h => h.Operation)
+                .WithMany(o => o.Histories)
+                .HasForeignKey(h => h.OperationID);
+
+            modelBuilder.Entity<Employee>()
+                .HasData(
+                    new Employee { EmployeeID = 1, Name = "John", Surname = "Smith" },
+                    new Employee { EmployeeID = 2, Name = "Emily", Surname = "Johnson" },
+                    new Employee { EmployeeID = 3, Name = "Michael", Surname = "Williams" },
+                    new Employee { EmployeeID = 4, Name = "Sarah", Surname = "Jones" },
+                    new Employee { EmployeeID = 5, Name = "David", Surname = "Brown" },
+                    new Employee { EmployeeID = 6, Name = "Jennifer", Surname = "Wilson" }
+                );
+
+            modelBuilder.Entity<Operation>()
+                .HasData(
+                    new Operation { OperationID = 1, Name = "Welding Chassis", Difficulty = 1 },
+                    new Operation { OperationID = 2, Name = "Assembling Engine Blocks", Difficulty = 2 },
+                    new Operation { OperationID = 3, Name = "Installing Wiring Harnesses", Difficulty = 3 },
+                    new Operation { OperationID = 4, Name = "Attaching Body Panels", Difficulty = 4 },
+                    new Operation { OperationID = 5, Name = "Painting Car Bodies", Difficulty = 5 },
+                    new Operation { OperationID = 6, Name = "Fitting Interior Components", Difficulty = 6 }
+                );
+
+            modelBuilder.Entity<History>()
+                .HasData(
+                    new History { HistoryID = 1, EmployeeID = 1, OperationID = 1, IsActive = true, CreatedAt = DateTime.Now },
+                    new History { HistoryID = 2, EmployeeID = 2, OperationID = 2, IsActive = true, CreatedAt = DateTime.Now },
+                    new History { HistoryID = 3, EmployeeID = 3, OperationID = 3, IsActive = true, CreatedAt = DateTime.Now },
+                    new History { HistoryID = 4, EmployeeID = 4, OperationID = 4, IsActive = true, CreatedAt = DateTime.Now },
+                    new History { HistoryID = 5, EmployeeID = 5, OperationID = 5, IsActive = true, CreatedAt = DateTime.Now },
+                    new History { HistoryID = 6, EmployeeID = 6, OperationID = 6, IsActive = true, CreatedAt = DateTime.Now }
+                );
+        }
+    }
+}

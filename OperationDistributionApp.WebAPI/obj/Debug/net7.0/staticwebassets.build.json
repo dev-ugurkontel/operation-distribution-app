@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zoWl1PXC2AAeSnCpmeOxkrZ7mMmGs2KmkrFgxZIob3I=",
+  "Source": "OperationDistributionApp.WebAPI",
+  "BasePath": "_content/OperationDistributionApp.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

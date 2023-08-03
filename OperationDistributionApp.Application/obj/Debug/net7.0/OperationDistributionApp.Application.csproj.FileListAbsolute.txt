@@ -1,0 +1,17 @@
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\bin\Debug\net7.0\OperationDistributionApp.Application.deps.json
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\bin\Debug\net7.0\OperationDistributionApp.Application.dll
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\bin\Debug\net7.0\OperationDistributionApp.Application.pdb
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\bin\Debug\net7.0\OperationDistributionApp.Domain.dll
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\bin\Debug\net7.0\OperationDistributionApp.Infrastructure.dll
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\bin\Debug\net7.0\OperationDistributionApp.Domain.pdb
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\bin\Debug\net7.0\OperationDistributionApp.Infrastructure.pdb
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.csproj.AssemblyReference.cache
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.AssemblyInfoInputs.cache
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.AssemblyInfo.cs
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.csproj.CopyComplete
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.dll
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\refint\OperationDistributionApp.Application.dll
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\OperationDistributionApp.Application.pdb
+C:\Users\ugurk\OneDrive\Masaüstü\OperationDistributionApp\OperationDistributionApp.Application\obj\Debug\net7.0\ref\OperationDistributionApp.Application.dll
