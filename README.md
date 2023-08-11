@@ -7,7 +7,6 @@ The project involves executing operational distribution functions for workers in
 ## Technologies Used
 
 - **Backend**: .NET Core 7.0
-- **Frontend**: Angular 15.2
 - **Database**: SQL Server 2019
 
 ## Setup and Execution
