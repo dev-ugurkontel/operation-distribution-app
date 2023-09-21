@@ -4311,46 +4311,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ugurk\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.WebAPI\\OperationDistributionApp.WebAPI.csproj",
+      "projectUniqueName": "/workspaces/operation-distribution-app-backend/OperationDistributionApp.WebAPI/OperationDistributionApp.WebAPI.csproj",
       "projectName": "OperationDistributionApp.WebAPI",
-      "projectPath": "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.WebAPI\\OperationDistributionApp.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\ugurk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.WebAPI\\obj\\",
+      "projectPath": "/workspaces/operation-distribution-app-backend/OperationDistributionApp.WebAPI/OperationDistributionApp.WebAPI.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/operation-distribution-app-backend/OperationDistributionApp.WebAPI/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ugurk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/Uv2FWtPfWS2ZmveX2J1P3MwTjxl8sQ2bgUZgz2So3QgFhnhus6/api": {},
-        "https://pkgs.dev.azure.com/mergadevops/_packaging/CommonFeeds/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.Application\\OperationDistributionApp.Application.csproj": {
-              "projectPath": "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.Application\\OperationDistributionApp.Application.csproj"
+            "/workspaces/operation-distribution-app-backend/OperationDistributionApp.Application/OperationDistributionApp.Application.csproj": {
+              "projectPath": "/workspaces/operation-distribution-app-backend/OperationDistributionApp.Application/OperationDistributionApp.Application.csproj"
             },
-            "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.Infrastructure\\OperationDistributionApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.Infrastructure\\OperationDistributionApp.Infrastructure.csproj"
+            "/workspaces/operation-distribution-app-backend/OperationDistributionApp.Infrastructure/OperationDistributionApp.Infrastructure.csproj": {
+              "projectPath": "/workspaces/operation-distribution-app-backend/OperationDistributionApp.Infrastructure/OperationDistributionApp.Infrastructure.csproj"
             }
           }
         }
@@ -4409,7 +4398,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet/7.0.400/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

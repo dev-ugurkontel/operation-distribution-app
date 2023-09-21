@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YjQgUz5gb6idV+zeMGFZyY1YdD+is8uurilOfbZw/xLvOosoSdUKDRlDxDlChfmtERZ79IqC4Y2jKHNhT+WHaA==",
+  "dgSpecHash": "/ZKT4XssUiGyiFSPceHGYCeTokbg9HP0nbDhYwCaGt9FpIUZCEyVlObNFvyRMSUYiao9Mm9Hf0kdcapwOQDSsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ugurk\\OneDrive\\Masaüstü\\OperationDistributionApp\\OperationDistributionApp.Domain\\OperationDistributionApp.Domain.csproj",
+  "projectFilePath": "/workspaces/operation-distribution-app-backend/OperationDistributionApp.Domain/OperationDistributionApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
