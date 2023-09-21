@@ -45,4 +45,3 @@ jobs:
           dotnet restore
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="sqp_a228c1603c5917ec0ac0b9b01e45a7fe14f5e898"
-        working-directory: ./operation-distribution-app-backend
